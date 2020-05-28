@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+</head>
+<body>
+<h1>Register With Us</h1>
+<form method="POST" action="https://request-inspector.glitch.me/">
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+<br/>
+    <label for="bodyText">Enter a short bio!</label>
+    <br/>
+    <textarea name="bodyText" cols="60" rows="10">Tell us more about you</textarea>
+    <br/>
+    <h2>How did you hear about us?</h2>
+    <input type="checkbox" value="How did you hear about us" name="capture id=billboard"><label for="billboard">Billboard</label>
+
+    <input type="checkbox" value="How did you hear about us" name="capture id=Radio advertisement"><label for="Radio advertisement">Radio advertisement</label>
+
+    <input type="checkbox" value="internet advertisement" name="capture id=internet advertisement"><label for="internet advertisement">Internet advertisement</label>
+
+    <input type="checkbox" value="other" name="capture id=other"><label for="other">Other</label>
+<br/>
+    <button type="register">Register</button>
+    <hr>
+    <label for="dropdown">Select your browser:</label>
+    <select name="dropdown" id="dropdown">
+    <option value="safari">Safari</option>
+    <option value="mozilla">Mozilla</option>
+    <option value="chrome">Chrome</option>
+    <option value="unsure">Unsure</option>
+</form>
+</body>
+</html>
