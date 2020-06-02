@@ -10,8 +10,8 @@ body, html {
 }
 
 .message-info{
-    background-color: #c3c3f1;
-    color: #652be7;
+    background-color: #CDDFFF;
+    color: #493F9E;
     padding-top: .5em;
     padding-right: .5em;
     padding-left: .5em;
@@ -22,7 +22,7 @@ body, html {
 
 }
 .message-success {
-    background-color: #cbffcd;
+    background-color: #CFF3DA;
     color: green;
     padding-top: .5em;
     padding-right: .5em;
