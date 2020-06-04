@@ -28,6 +28,7 @@ a {
 }
 .top-nav {
     background: var(--light-bg);
+    display: inline-block;
     width: 100%;
     position: fixed;
     z-index: 1000;
@@ -59,6 +60,10 @@ a {
 
 .profile-form {
     line-height: 80px;
+
+}
+.profile-entry {
+    margin: .5em;
 }
 
 .profile-details {
@@ -113,6 +118,7 @@ a {
     font-weight: bold;
     padding: 8px;
     border-radius: 5px;
+    position: relative;
 }
 .btn-large {
     font-size: 1.3em;
@@ -133,6 +139,3 @@ a {
     padding: 0;
 }
 
-.profile-entry {
-    margin: .5em;
-}
