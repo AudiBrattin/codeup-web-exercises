@@ -1,0 +1,35 @@
+
+h1.fancy-header {
+    color: #ffffff;
+    background-color: #E6ECF0;
+    background-image: url("https://images.pexels.com/photos/8892/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    text-align: center;
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 65px;
+}
+
+img {
+    width: 10%;
+    height: auto;
+}
+
+body {
+    background-image: url("https://images.pexels.com/photos/4321944/pexels-photo-4321944.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    font-weight: bold;
+    background-color: #306170;
+
+}
+h2,h3 {
+    color: #E6ECF0;
+    background-image: url("https://images.pexels.com/photos/8892/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    width: 30%;
+    text-align: center;
+    text-decoration: underline;
+}
+section {
+    border: #E6ECF0;
+    border: 40px;
+
+}
+
