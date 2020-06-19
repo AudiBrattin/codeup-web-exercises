@@ -8,6 +8,10 @@
  * Example
  * > sayHello("codeup") // returns "Hello, codeup!"
  */
+const sayHello = function (name) {
+    return "Hello" + name + "!";
+}
+    console.log(sayHello (" audiesha"));;
 
 
 
@@ -18,10 +22,9 @@
  *
  * console.log 'helloMessage' to check your work
  */
-function sayHello (Audi) {
-    return Audi;
-    var Audi =
-}
+let helloMessage = sayHello(name+ " Audiesha");
+console.log(helloMessage);
+
 
 
 /**
@@ -31,10 +34,15 @@ function sayHello (Audi) {
  * console.
  */
 
+let myName = " Audiesha";
+helloMessage= sayHello(myName);
+console.log(helloMessage);
+
 // Don't modify the following line, it generates a random number between 1 and 3
 // and stores it in a variable named random
 var random = Math.floor((Math.random() * 3) + 1);
 
+console.log(random);
 /**
  * TODO:
  * Create a function called 'isTwo' that takes a number as a parameter.
@@ -52,6 +60,13 @@ var random = Math.floor((Math.random() * 3) + 1);
  * different result everytime you refresh the page if you are using the random
  * number)
  */
+const isTwo= function (num) {
+return num === 2;
+}
+console.log(isTwo(random));
+
+
+
 
 /**
  * TODO:
@@ -64,6 +79,10 @@ var random = Math.floor((Math.random() * 3) + 1);
  * > calculateTip(0.25, 25.50) // returns 6.37
  * > calculateTip(0.15, 33.42) // returns 5.013
  */
+const calculateTip = function (tipPercentage,totalBill) {
+    return tipPercentage * totalBill;
+}
+console.log(calculateTip(.20,20))
 
 /**
  * TODO:
@@ -71,6 +90,10 @@ var random = Math.floor((Math.random() * 3) + 1);
  * prompt the user for the bill total and a percentage they would like to tip,
  * then display the dollar amount they should tip
  */
+let totalBill =parseFloat(prompt("What is your bill total"));
+let tipPercentage = parseFloat(prompt("what percentage would you like to tip?"));
+
+alert(calculateTip(tipPercentage,totalBill))
 
 /**
  * TODO:
@@ -86,3 +109,8 @@ var random = Math.floor((Math.random() * 3) + 1);
  *
  * > applyDiscount(45.99, 0.12) // 40.4712
  */
+// const applyDiscount = function (originalPrice,discountPercent)
+// {
+//     return originalPrice-originalPrice*discountPercent;
+// }
+// var originalPrice
